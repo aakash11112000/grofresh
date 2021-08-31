@@ -1,0 +1,24 @@
+{
+  "name": "grofresh",
+  "version": "1.0.0",
+  "description": "Capstone Project - Sales web app for grocery stores",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "cd client && npm install",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

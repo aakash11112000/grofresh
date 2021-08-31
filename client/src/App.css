@@ -1,0 +1,135 @@
+/* .row {
+  margin: 0px;
+  padding: 0px;
+} */
+
+.main-jumbotron {
+  margin: auto;
+  height: 500px;
+  text-align: center;
+  padding: 25px;
+}
+
+.main-jumbotron h1{
+  margin: 40px 0 20px 0;
+  font-weight: 500;
+  font-size: 3em;
+}
+
+.main-jumbotron p{
+  padding: 35px 0 20px 0;
+  color: rgb(199, 180, 14);
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.main-jumbotron .login-btn {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.footer {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer ul{
+  list-style-type: none;
+}
+.footer li{
+  padding: 3px 0;
+  text-decoration: none;
+}
+
+/* Contact Component Styling */
+
+.contact-jumbotron {
+  margin: auto;
+  height: 500px;
+  text-align: left;
+  align-items: center;
+  padding: 100px 0px;
+}
+.contact-jumbotron-text {
+  align-items: center;
+}
+.contact-jumbotron-text h1{
+  font-weight: 400;
+  color: rgb(17, 46, 211);
+}
+
+.contact-jumbotron p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #3700ffd7;
+}
+
+.contact-container{
+  margin-top: 20px;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-body {
+  margin-bottom: 70px;
+}
+
+.contact-body .side-1 {
+  margin-left: 10px;
+}
+
+.contact-body .side-2 {
+  margin-left: 10px;
+}
+
+.contact-body .contact-sides-border {
+  margin: 0 15px 0 -40px;
+  border-right: 1px solid grey;
+  padding: 3px 0 3px 0;
+}
+
+.contact-body .side-1 address {
+  display: block;
+  font-style: italic;
+}
+
+.contact-body .contact-button {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.contact-body .contact-form-check{
+  margin-left: 20px;
+  margin: 20px 0px;
+}
+
+/* Order page styling */
+.order-jumbotron {
+  background-color: #232529; /* color of the dark variant */
+  width: 100%;
+  height: 400px;
+  color: rgb(196, 34, 61);
+  text-align: center;
+  padding-top: 70px;
+}
+
+.featured-cards {
+  margin: 30px 20px;
+  text-align: center;
+}
+
+.featured-cards h4 {
+  margin: 2px 0px;
+}
+
+.featured-cards p{
+  padding: 10px 5px;
+  text-align: left;
+}
+
+
+
